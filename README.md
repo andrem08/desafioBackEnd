@@ -8,6 +8,8 @@ Este projeto é uma aplicação web baseada em Django projetada para gerenciar p
 - **Django**
 - **Django REST Framework**
 
+  Site para o Django REST Framework:  https://www.django-rest-framework.org/
+
 ## Instalação
 
 Para configurar este projeto localmente, siga estas etapas:
@@ -23,8 +25,8 @@ Para configurar este projeto localmente, siga estas etapas:
     ```
     pip install django
     pip install djangorestframework
-    pip install markdown       # Markdown support for the browsable API.
-    pip install django-filter  # Filtering support
+    pip install markdown
+    pip install django-filter
     ```
   3. Rode o django migrate:
 
