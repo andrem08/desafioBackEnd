@@ -3,7 +3,6 @@ from rest_framework.routers import DefaultRouter
 from .views import (
     ProfissionalViewSet,
     ConsultaMedicaViewSet,
-    # profissional_detail
 )
 
 # Criando duas rotas, a primeira pro cadastro e a segunda para a consulta médica
