@@ -16,6 +16,7 @@ class ConsultaMedicaViewSet(viewsets.ModelViewSet):
     serializer_class = ConsultaMedicaSerializer
 
     def get_queryset(self):
+        # Pega o id inserido na busca, e verifica se existe um profissional com este id, se existir retorna a query do profissional
         queryset = super().get_queryset()
         profissional_id = self.request.query_params.get('profissional_id')
         if profissional_id is not None:
