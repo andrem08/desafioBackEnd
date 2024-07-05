@@ -40,3 +40,16 @@ Para editar e deletar tanto os registros dos profissionais quanto dos cadastros,
     http://127.0.0.1:8000/profissionais/1/
 
 Neste caso poderá ver uma opção de DELETE para deletar o respectivo objeto, ou os campos abaixo para edita-los
+
+
+Para verificar o codigo, veja os arquivos /app/models, /app/serializers, /app/tests, /app/urls, /app/validators, e /app/views, além de desafioBackEnd/settings
+O código foi feito sem plágio pelo autor André Miyazawa, com referencia em alguns videos do youtube como:
+
+https://youtu.be/17KdirMbmHY?si=LGaFdF5odjVV5woR
+https://youtu.be/B65zbFro2pU?si=wRxF7PGu22aPEAeq
+https://youtu.be/DiSoVShaOLI?si=_XNcpd6zP1-R_6v-
+https://youtu.be/uzO2PW5jNMk?si=bZvRkqb4NScwRmxM
+https://youtu.be/44qdTGbWY8c?si=qu52D_Z9gIE8vcyV
+https://youtu.be/jE37ZVeAqiI?si=PlhDsL7YYyYTKhFX
+https://youtu.be/cEXt8hDyKQw?si=0vKW-_RSrkDfd3R6
+https://youtu.be/t-uAgI-AUxc?si=5UTWEmV6b5EDO65I
