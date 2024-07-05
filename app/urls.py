@@ -6,11 +6,11 @@ from .views import (
     # profissional_detail
 )
 
+# Criando duas rotas, a primeira pro cadastro e a segunda para a consulta médica
 router = DefaultRouter()
 router.register(r'profissionais', ProfissionalViewSet)
 router.register(r'consultas_medicas', ConsultaMedicaViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
-    # path('profissionais/<int:pk>/', profissional_detail),
 ]
